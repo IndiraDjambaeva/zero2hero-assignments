@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>airdrop-dapp</title>
+  <link rel="stylesheet" href="style.css">
+  <script 
+    src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+    type="application/javascript"
+  ></script>
+  <script src="script.js"></script>
+
+  
+</head>
+<body>
+  <div>
+    <header>
+      <h1>Airdrop DAPP</h1>
+    </header>
+
+    <div>
+      <p>Token you want to Airdrop</p>
+      <input type="text" id ="tokenAddress" />
+    </div>
+
+    <div>
+      <p>ADD addresses:</p>
+    <input type="text" id ="arrayOfReceivers" />
+    </div>
+
+    <div>
+     <p>ADD token amounts:</p>
+    <input type="text" id ="arrayOfAmounts" />
+    </div>
+    
+    <div>
+      <button onclick="airdropTokensWithTransfer()">Airdrop tokens by TRANSFER</button>
+    </div>
+
+    <div>
+      <button onclick="getBalance()">Get Balance</button>
+      <p>ERC20 token Balance: <span id = "ERC20Balance"></p>
+    </div>
+   
+  </div>
+
+  
+</body>
+</html>

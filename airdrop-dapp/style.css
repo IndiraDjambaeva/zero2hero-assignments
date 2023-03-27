@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  font-family: Verdana;
+  background-color: #1a1a1d;
+  color: #fbf9fd;
+}
+
+div {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #6f6e77;
+}
+
+input {
+  padding: 15px 20px;
+  background: #ffffff;
+  border: 2px solid #dcdbdd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 15px 20px;
+  margin: 15px 0px 0px 0px;
+  background: #8cd812;
+  border-radius: 12px;
+  font-weight: 800;
+  font-size: medium;
+  color: #333238;
+}
+
+#ERC20Balance {
+  color: white;
+}
