@@ -1,4 +1,4 @@
-//const contractTokenAddress = '0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8';
+const contractTokenAddress = '0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8';
 const contractTokenABI = [
 	{
 		"inputs": [
@@ -127,8 +127,8 @@ const contractTokenABI = [
 	}
 ];
 
-const contractAirdropAddress = "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4";
-const contractAirdropABI = [
+//const contractAirdropAddress = "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4";
+//const contractAirdropABI = [
   {
     inputs: [
       {
@@ -152,7 +152,7 @@ const contractAirdropABI = [
     stateMutability: "nonpayable",
     type: "function",
   },
-];
+//];
 
 let signer;
 let contractToken;
